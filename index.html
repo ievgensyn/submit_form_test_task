@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<header>
+		<title>Submit Form | test task v.2</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script src="script/main.js"></script>
+	</header>
+	<body>
+		<h1>Mate Academy Submit Form</h1>
+		<p>Please, submit the form below. Required fields are marked as *</p>
+		
+		<form name="form" action="#" novalidate onsubmit="return validate(this);">
+			<label name="fname">First Name *</label>
+			<input type="text" name="fname">
+			<span id="firstName"></span>
+
+			<label name="lname">Last Name *</label>
+			<input type="text" name="lname">
+			<span id="lastName"></span>
+
+			<label name="bithrady">Birthday *</label>
+			<input name="bthday" type="date">
+			<span id="birthday"></span>
+
+			<label name="sex">Gender *</label>
+			<label1><input name="gender" type="radio">Male</label1>
+			<label1><input name="gender" type="radio">Female</label1>
+			<span id="gender"></span>
+
+			<label name="country">Country *</label>
+			<select name="country">
+				<option value="-1">choose your country</option>
+				<option value="0">country1</option>
+				<option value="1">country2</option>
+				<option value="2">country3</option>
+				<option value="3">country4</option>
+			</select>
+			<span id="country"></span>
+
+			<label name="e_mail">E-Mail *</label>
+			<input name="email" type="email">
+			<span id="email"></span>
+
+			<label name="addr">Address *</label>
+			<input name="address" type="text">
+			<span id="address"></span>
+
+			<label name="notes">Notes</label>
+			<textarea rows="5"></textarea>
+
+			<button type="submit" name="submit">Submit</button>
+
+		</form>
+		
+	</body>
+
+
+
+
+</html>
